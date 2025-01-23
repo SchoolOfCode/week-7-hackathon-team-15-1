@@ -1,4 +1,4 @@
-export default function FlashCard({ name, fact, panel }) {
+export default function FlashCard({ name, fact }) {
   return (
     <div>
       <h1>🔍</h1>
