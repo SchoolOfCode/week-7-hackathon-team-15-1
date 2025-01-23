@@ -10,8 +10,6 @@ export default function Hero() {
   const [newFactInput, setNewFactInput] = useState("");
 
   function handleSubmitClick() {
-    console.log(profiles);
-    console.log("clicked");
     let newprofiles = [
       ...profiles,
       {
@@ -20,8 +18,6 @@ export default function Hero() {
       },
     ];
     setProfiles(newprofiles);
-    console.log(profiles);
-    console.log(newprofiles);
     setNewNameInput("");
     setNewFactInput("");
   }
