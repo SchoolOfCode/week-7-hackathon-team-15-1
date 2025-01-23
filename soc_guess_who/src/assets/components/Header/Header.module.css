@@ -2,3 +2,7 @@
     background-color: #ff5d5b;
 }
 
+.banner img{
+    max-width: 300px;
+    max-height: 200px;
+}
