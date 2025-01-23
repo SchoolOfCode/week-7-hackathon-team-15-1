@@ -33,7 +33,6 @@ export default function Hero() {
   return (
     <div>
       <div className="createDataSection">
-        <h1>Hero Section</h1>
         <DataInput
           onNameInputChange={handleNameInput}
           onFactInputChange={handleFactInput}

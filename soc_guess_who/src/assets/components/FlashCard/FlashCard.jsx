@@ -8,14 +8,14 @@ export default function FlashCard({
 }) {
   if (panel == "Front") {
     return (
-      <div className={styles.FlashCard} onClick={onFlashCardClick}>
+      <div className={styles.FrontPanel} onClick={onFlashCardClick}>
         <h1>🔍</h1>
         <h3>{card_fact}</h3>
       </div>
     );
   } else {
     return (
-      <div onClick={onFlashCardClick}>
+      <div className={styles.BackPanel} onClick={onFlashCardClick}>
         <h1>👍</h1>
         <h3>{card_name}</h3>
       </div>

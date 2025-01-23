@@ -1,4 +1,5 @@
-.FlashCard{
+.CardDisplay{
     display: grid;
-    grid-template: 150px 150px 150px/ 150px 150px 150px
+    grid-template: 170px 170px 170px/ 170px 170px 170px;
+    gap: 2rem;
 }
