@@ -3,8 +3,8 @@ import InputBox from "../InputBox/InputBox";
 export default function DataInput() {
   return (
     <div>
-      <InputBox />
-      <InputBox />
+      <InputBox label="Name" />
+      <InputBox label="Facts" />
     </div>
   );
 }
