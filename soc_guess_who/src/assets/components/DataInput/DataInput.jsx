@@ -1,10 +1,10 @@
 import InputBox from "../InputBox/InputBox";
 
-export default function DataInput() {
+export default function DataInput({ onNameInputChange, onFactInputChange }) {
   return (
     <div>
-      <InputBox label="Name" />
-      <InputBox label="Facts" />
+      <InputBox label="Name" onInputChange={onNameInputChange} />
+      <InputBox label="Facts" onInputChange={onFactInputChange} />
     </div>
   );
 }
