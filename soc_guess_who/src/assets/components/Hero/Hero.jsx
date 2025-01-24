@@ -4,7 +4,26 @@ import CardDisplay from "../CardDisplay/CardDisplay";
 import { useState } from "react";
 
 export default function Hero() {
-  let profileArray = [{ name: "Hope", fact: "Has a dog named Porridge" }];
+  let profileArray = [
+    { name: "Hope", fact: "Has a dog named Porridge" },
+    { name: "Luke", fact: "All their siblings share a Star Wars theme" },
+    {
+      name: "Faisal",
+      fact: "Lead singer of the best-selling girl group of all time",
+    },
+    {
+      name: "Sam",
+      fact: "is a qualified skydiver",
+    },
+    {
+      name: "Madeleine",
+      fact: "Blessed us with their Christmas birthday",
+    },
+    {
+      name: "Nick",
+      fact: "Voiced the protagonist of a Playstation GOTY nominee ",
+    },
+  ];
   const [profiles, setProfiles] = useState(profileArray);
   const [newNameInput, setNewNameInput] = useState("");
   const [newFactInput, setNewFactInput] = useState("");
