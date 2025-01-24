@@ -36,6 +36,8 @@ export default function Hero() {
         <DataInput
           onNameInputChange={handleNameInput}
           onFactInputChange={handleFactInput}
+          updateNameField={newNameInput}
+          updateFactField={newFactInput}
         />
         <SubmitButton onButtonClick={handleSubmitClick} />
       </div>
