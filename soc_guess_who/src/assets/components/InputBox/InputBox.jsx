@@ -1,4 +1,4 @@
-export default function InputBox({ label, onInputChange, defaultText }) {
+export default function InputBox({ label, onInputChange, inputText }) {
   return (
     <div>
       <div>{label}</div>
@@ -9,8 +9,8 @@ export default function InputBox({ label, onInputChange, defaultText }) {
         onChange={(event) => {
           onInputChange(event.target.value);
         }}
-        value={defaultText}
+        value={inputText}
       />
     </div>
   );
-} 
+}
