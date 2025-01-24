@@ -9,3 +9,5 @@ export default function DataInput({ onNameInputChange, onFactInputChange ,update
     </div>
   );
 }
+
+

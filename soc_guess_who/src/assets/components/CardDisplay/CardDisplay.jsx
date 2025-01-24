@@ -10,3 +10,4 @@ export default function CardDisplay({ profile_data }) {
     </div>
   );
 }
+

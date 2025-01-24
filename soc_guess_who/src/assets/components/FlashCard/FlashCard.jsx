@@ -24,3 +24,7 @@ export default function FlashCard({ card_name, card_fact }) {
     );
   }
 }
+
+
+
+

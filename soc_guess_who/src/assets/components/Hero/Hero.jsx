@@ -13,7 +13,7 @@ export default function Hero() {
     },
     {
       name: "Sam",
-      fact: "is a qualified skydiver",
+      fact: "Is a qualified skydiver",
     },
     {
       name: "Madeleine",
