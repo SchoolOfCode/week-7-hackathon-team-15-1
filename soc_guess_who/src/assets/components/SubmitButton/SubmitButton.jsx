@@ -1,3 +1,6 @@
+import styles from "./SubmitButton.module.css";
+
+
 export default function SubmitButton({ onButtonClick }) {
-  return <button onClick={onButtonClick}>Submit</button>;
+  return <button className={styles.SubmitButton} onClick={onButtonClick}>Submit</button>;
 }

@@ -1,5 +1,8 @@
 .CardDisplay{
     display: grid;
-    grid-template: 170px 170px 170px/ 170px 170px 170px;
+    grid-template: 170px 170px 170px / 170px 170px 170px;
+    
+    /* min-width:170px;
+    max-width: 170px; */
     gap: 2rem;
 }

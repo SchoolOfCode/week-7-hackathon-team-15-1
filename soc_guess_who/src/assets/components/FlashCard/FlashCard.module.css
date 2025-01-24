@@ -5,12 +5,20 @@
 .FrontPanel{
     background-color: aquamarine;
     border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .BackPanel{
-    background-color:  green;
+    background-color: cornflowerblue;
     color: white;
     border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
 }
 
