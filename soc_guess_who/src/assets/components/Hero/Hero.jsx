@@ -8,6 +8,7 @@ export default function Hero() {
   const [profiles, setProfiles] = useState(profileArray);
   const [newNameInput, setNewNameInput] = useState("");
   const [newFactInput, setNewFactInput] = useState("");
+  const [textField, setTextField] = useState("");
 
   function handleSubmitClick() {
     let newprofiles = [
@@ -20,6 +21,7 @@ export default function Hero() {
     setProfiles(newprofiles);
     setNewNameInput("");
     setNewFactInput("");
+    setTextField("");
   }
 
   function handleNameInput(newNameInput) {
@@ -36,6 +38,8 @@ export default function Hero() {
         <DataInput
           onNameInputChange={handleNameInput}
           onFactInputChange={handleFactInput}
+          resetNameField={newNameInput}
+          resetFactField={newFactInput}
         />
         <SubmitButton onButtonClick={handleSubmitClick} />
       </div>
