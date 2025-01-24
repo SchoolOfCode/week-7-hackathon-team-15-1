@@ -1,16 +1,18 @@
 export default function InputBox({ label, onInputChange, inputText }) {
   return (
     <div>
-      <div>{label}</div>
-      <input
-        type="text"
-        id="fname"
-        name="fname"
-        onChange={(event) => {
-          onInputChange(event.target.value);
-        }}
-        value={inputText}
-      />
+      <form action="/action_page.php">
+        <label htmlFor="fname">{label}</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          onChange={(event) => {
+            onInputChange(event.target.value);
+          }}
+          value={inputText}
+        ></input>
+      </form>
     </div>
   );
 }
